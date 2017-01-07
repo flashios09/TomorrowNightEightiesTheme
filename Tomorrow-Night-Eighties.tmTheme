@@ -278,7 +278,7 @@
                 <key>name</key>
                 <string>Variable, String Link, Tag Name</string>
                 <key>scope</key>
-                <string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+                <string>variable, support.other.variable, string.other.link, entity.name.tag, meta.tag, declaration.tag</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -557,6 +557,32 @@
                     <string></string>
                     <key>foreground</key>
                     <string>#EDBA00</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Dollar Accolades</string>
+                <key>scope</key>
+                <string>dollar.accolade.begin, dollar.accolade.end</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#FFFFAA</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Attribute name</string>
+                <key>scope</key>
+                <string>entity.other.attribute-name</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#fec1af</string>
                 </dict>
             </dict>
         </array>
