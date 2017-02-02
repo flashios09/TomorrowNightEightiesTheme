@@ -585,6 +585,74 @@
                     <string>#fec1af</string>
                 </dict>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>Javascript/Json: Object key</string>
+                <key>scope</key>
+                <string>source.js meta.object-literal.key.js string.quoted.double.js, source.json meta.object-literal.key.js string.quoted.double.js</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#cbfc9d</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - dynamic attribute name inside html or xml component tag eg. `@click`, `:class`, `v-model`</string>
+                <key>scope</key>
+                <string>entity.other.attribute-name.vuejs.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFAA</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - static attribute name inside xml component tag eg. `type`, `user`, `id`</string>
+                <key>scope</key>
+                <string>text.html.basic meta.tag.other.html meta.attribute-with-value.html entity.other.attribute-name.html, text.html.basic meta.tag.custom.html meta.attribute-with-value.html entity.other.attribute-name.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#708dab</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - double quotes `"` for attribute after equal sign inside html or xml component tag</string>
+                <key>scope</key>
+                <string>punctuation.definition.string.begin.vuejs.html, punctuation.definition.string.end.vuejs.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFAA</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - double accolade `{{`, `}}` for inline expression inside html or xml component</string>
+                <key>scope</key>
+                <string>double-accolade.begin.vuejs, double-accolade.end.vuejs</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFAA</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js xml component tag</string>
+                <key>scope</key>
+                <string>text.html.basic meta.tag.other.html entity.name.tag.other.html, text.html.basic meta.tag.custom.html entity.name.tag.custom.html, text.html.basic meta.tag.other.html punctuation.definition.tag.begin.html, text.html.basic meta.tag.custom.html punctuation.definition.tag.begin.html, text.html.basic meta.tag.other.html punctuation.definition.tag.end.html, text.html.basic meta.tag.custom.html punctuation.definition.tag.end.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41b883</string>
+                </dict>
+            </dict>
         </array>
         <key>uuid</key>
         <string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
