@@ -653,6 +653,39 @@
                     <string>#41b883</string>
                 </dict>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - template tag inside .vue file</string>
+                <key>scope</key>
+                <string>text.html.vue template.begin.vuejs, text.html.vue template.end.vuejs</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#708dab</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - script tag inside .vue file</string>
+                <key>scope</key>
+                <string>text.html.vue script.begin.vuejs, text.html.vue script.end.vuejs</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#f5d841</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Vue Js - style tag inside .vue file</string>
+                <key>scope</key>
+                <string>text.html.vue style.begin.vuejs, text.html.vue style.end.vuejs</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ff4177</string>
+                </dict>
+            </dict>
         </array>
         <key>uuid</key>
         <string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
